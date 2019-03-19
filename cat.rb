@@ -1,10 +1,8 @@
 class Cat
-  attr_reader :name, :color, :noise
-
-  def initialize(name, color)
+  attr_reader :name, :breed, :disposition
+  def initialize(name, breed, disposition)
     @name = name
-    @color = color
-    @noise = "Woof"
+    @breed = breed
+    @disposition = disposition
   end
-
 end
